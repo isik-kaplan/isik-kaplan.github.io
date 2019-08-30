@@ -33,6 +33,10 @@ body {
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;

@@ -9,6 +9,7 @@
                 link.innerHTML = item.getAttribute('data-href');
                 link.target = item.target;
                 link.href = item.href;
+                link.rel = item.rel;
             }
         )
     });
