@@ -1,0 +1,3 @@
+# This is a static website served by github using github-pages.
+# This is here mostly to keep up with the standards.
+# But if you really think that you have found a vulnerability you may want to contact github.com
