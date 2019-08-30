@@ -54,7 +54,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#gradient-effect {
+.gradient-effect {
     background-image: linear-gradient(103deg, rgba(255,255,255,0) 55%, white 78%);
     position: absolute;
     display: block;
@@ -108,7 +108,7 @@ html {
         width: 500px;
         height: 900px;
     }
-    #gradient-effect {
+    .gradient-effect {
         background-image: linear-gradient(167deg, rgba(255,255,255,0) 55%, white 78%);
         width: 500px;
         height: 440px;
