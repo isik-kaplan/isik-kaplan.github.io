@@ -1,4 +1,6 @@
-(function () {
+import("./common/initial.js");
+
+function main() {
     let link = document.getElementsByClassName("representation")[0];
     Array.from(document.getElementsByClassName("connections-wrapper")[0].children).forEach(function (item) {
         item = item.children[0];
@@ -13,4 +15,9 @@
             }
         )
     });
-}());
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    import("./common/dark_mode.js");
+    main();
+});

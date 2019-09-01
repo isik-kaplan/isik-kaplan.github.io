@@ -1,0 +1,37 @@
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 13px;
+    text-align: right;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 5px;
+}
+.menu a {
+    padding: 1px 2px 1px 2px;
+    margin: 1px;
+}
+
+.menu .inverted {
+    background: var(--black);
+    color: var(--white) !important;
+}
+
+@media (max-width: 900px) {
+    .menu {
+        position: unset;
+        top: unset;
+        right: unset;
+        font-size: 13px;
+        text-align: center;
+    }
+}

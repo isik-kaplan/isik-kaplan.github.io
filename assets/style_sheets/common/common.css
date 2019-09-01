@@ -1,0 +1,38 @@
+@import "color_palette.css";
+@import "menu.css";
+@import "//fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap";
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+a:link {
+    color: var(--blue)
+}
+
+a:visited {
+    color: var(--maroon);
+}
+
+html.dark a:link {
+    color: var(--white);
+}
+
+html.dark a:visited {
+    color: var(--gray);
+}
+
+html.dark body {
+    color: var(--white);
+    background: var(--black);
+}
+
+html.dark .icon {
+    filter: invert(1);
+}
+

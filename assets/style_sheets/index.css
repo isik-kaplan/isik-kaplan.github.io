@@ -1,0 +1,92 @@
+@import "common/common.css";
+@import "common/card.css";
+
+.gradient-effect {
+    background-image: linear-gradient(103deg, rgba(255,255,255,0) 55%, var(--white) 78%);
+    position: absolute;
+    z-index: 1;
+    width: 440px;
+    height: 500px;
+}
+
+.photo {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 440px;
+    height: 500px;
+}
+
+.content {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.connections-wrapper {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.name > h1 {
+    margin: 0;
+}
+
+.representation {
+    font-size: 24px;
+    color: inherit;
+}
+
+.occupation {
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon {
+    margin: 0 20px 0 20px;
+}
+
+html.dark .gradient-effect {
+    background-image: linear-gradient(103deg, rgba(255,255,255,0) 55%, var(--black) 78%);
+}
+
+@media (max-width: 900px) {
+    .gradient-effect {
+        background-image: linear-gradient(167deg, rgba(255,255,255,0) 55%, var(--white) 78%);
+        width: 500px;
+        height: 440px;
+    }
+    .photo {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+        width: 500px;
+        height: 440px;
+    }
+    .content {
+        width: unset;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .gradient-effect {
+        width: 100%;
+    }
+    .photo {
+        width: 100%;
+    }
+    .icon {
+        margin: 0 8px 0 8px;
+    }
+    .name {
+        font-size: 24px;
+    }
+}
+
