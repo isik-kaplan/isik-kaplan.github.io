@@ -1,6 +1,6 @@
 (function () {
     let html =  document.getElementsByTagName("html")[0];
-    let darkModeToggler = document.getElementsByClassName("inverted")[0];
+    let darkModeToggler = document.getElementsByClassName("invert-button")[0];
     darkModeToggler.addEventListener(
         "click",
         function (event) {
