@@ -1,11 +1,12 @@
 @import "color_palette.css";
 @import "menu.css";
-@import "//fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap";
 
 
 ::-webkit-scrollbar {
     display: none;
 }
+
 
 * {
     font-family: 'Roboto Slab', serif;
