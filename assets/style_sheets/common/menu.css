@@ -21,10 +21,6 @@
     margin: 1px;
 }
 
-.menu .inverted {
-    background: var(--white);
-}
-
 html.dark .menu .inverted {
     background: var(--black);
 }
