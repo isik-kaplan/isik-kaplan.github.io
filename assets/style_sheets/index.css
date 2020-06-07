@@ -1,5 +1,6 @@
 @import "common/common.css";
 @import "common/card.css";
+@import "common/ribbon.css";
 
 .gradient-effect {
     background-image: linear-gradient(103deg, rgba(255,255,255,0) 55%, var(--white) 78%);
@@ -14,6 +15,7 @@
     clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
     width: 440px;
     height: 500px;
+    z-index: -1;
 }
 
 .content {

@@ -17,6 +17,13 @@ html {
     width: 100%;
 }
 
+.card-wrapper {
+    padding: 2px;
+    margin-bottom: 160px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
 .card {
     height: 500px;
     width: 900px;
@@ -24,9 +31,7 @@ html {
     justify-content: space-between;
     border: solid 2px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 160px;
-    margin-top: 60px;
-    overflow: hidden;
+    position: relative;
 }
 
 html.dark .card {
