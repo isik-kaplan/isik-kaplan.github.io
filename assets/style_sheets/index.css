@@ -82,17 +82,18 @@ html.dark .gradient-effect {
 }
 
 @media (max-width: 500px) {
-    .gradient-effect {
-        width: 100%;
+    .card, .menu {
+        display: none;
     }
-    .photo {
-        width: 100%;
+
+    .card-minimal {
+        display: flex;
     }
-    .icon {
-        margin: 0 8px 0 8px;
-    }
-    .name {
-        font-size: 24px;
+    .connections-wrapper {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
+
 

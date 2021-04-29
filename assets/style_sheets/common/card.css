@@ -1,14 +1,3 @@
-body {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    height: 100%;
-}
-
 .wrapper {
     display: flex;
     justify-content: center;
@@ -53,13 +42,9 @@ html.dark .card {
     }
 }
 
-@media (max-width: 500px) {
-    .card {
-        width: 100%;
-        margin-top: 0;
-        box-shadow: none;
-        border-right: none !important;
-        border-left: none !important;
-        border-top: none !important;
-    }
+.card-minimal {
+    display: none; /* Flex on mobile */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
