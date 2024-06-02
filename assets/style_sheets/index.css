@@ -18,6 +18,11 @@
     z-index: -1;
 }
 
+.photo-adjustments {
+    height: 500px;
+    margin-left: -50px;
+}
+
 .content {
     width: 56%;
     display: flex;

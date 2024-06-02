@@ -1,22 +1,3 @@
-### FAQ
+Landing page for my domain living at the apex domain [isik-kaplan.com](https://isik-kaplan.com).
 
----
-
-#### What is this?
-```
-It is my personal website.
-```
-
-#### Why don't you support Edge?
-
-```
-They are about to switch to chromium which would automatically solve the edge issue.
-```
-
-#### Why don't you support IE?
-
-```
-What is this? 2001?
-```
-
----
+There may or may not be subdomains that may or may not contain exciting stuff. 
